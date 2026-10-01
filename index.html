@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanjana Sharma | Frontend Developer | Shopify &amp; WordPress Elementor Specialist</title>
+  <meta name="description" content="Portfolio of Sanjana Sharma - Frontend Developer with 5+ years of experience in custom Shopify themes, WordPress Elementor websites, and responsive frontend development.">
+  <meta name="keywords" content="Sanjana Sharma, Frontend Developer, Shopify Developer, WordPress Developer, Elementor, Liquid, HTML5, CSS3, JavaScript, Bootstrap, Delhi, India">
+  <meta name="author" content="Sanjana Sharma">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3.2 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- Font Awesome 6.5.1 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Animate.css for WOW.js Animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!-- Slick Slider CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+  <!-- Custom Clean, Elegant & Pretty Duo-Tone (Purple & Lilac) Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="90">
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION BAR
+       ========================================================================== -->
+  <header>
+    <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top custom-navbar">
+      <div class="container">
+        <!-- Brand Logo -->
+        <a class="navbar-brand navbar-brand-custom" href="#home">
+          <span class="brand-dot"></span>
+          <span class="gradient-text">Sanjana</span><span style="color: var(--purple-deep);">.Dev/&gt;</span>
+        </a>
+
+        <!-- Mobile Toggler -->
+        <button class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars-staggered fs-5"></i>
+        </button>
+
+        <!-- Nav Links -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-2">
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-custom" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Action Button -->
+          <div class="d-flex align-items-center gap-2">
+            <a href="#contact" class="btn btn-gradient btn-sm px-4 py-2">
+              <i class="fa-regular fa-paper-plane"></i> Let's Talk
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION (CLEAN, AIRY & SPACIOUS)
+         ========================================================================== -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <!-- Left Column: Intro -->
+          <div class="col-lg-7 wow animate__fadeInLeft" data-wow-duration="1s">
+            <!-- Availability Pill -->
+            <div class="status-badge mb-3">
+              <span class="status-dot"></span> Available for New Opportunities
+            </div>
+
+            <!-- Main Heading -->
+            <h1 class="hero-title mb-3">
+              Hi, I'm <span class="gradient-text">Sanjana Sharma</span>
+            </h1>
+
+            <!-- Dynamic Typed Text -->
+            <h2 class="h4 mb-3 fw-bold d-flex flex-wrap align-items-center gap-2" style="color: var(--text-heading);">
+              <span>I specialize in</span>
+              <span id="typingText" class="typed-text-holder"></span>
+            </h2>
+
+            <!-- Lead Paragraph (Concise & Impactful) -->
+            <p class="hero-lead mb-4">
+              Frontend Developer with <strong>5+ years of experience</strong> crafting custom <strong>Shopify themes</strong>, <strong>WordPress Elementor</strong> websites, and responsive frontend web applications.
+            </p>
+
+            <!-- Key Quick Info Badges -->
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <span class="skill-pill"><i class="fa-solid fa-location-dot text-danger"></i> Delhi, India</span>
+              <span class="skill-pill"><i class="fa-solid fa-briefcase" style="color: var(--purple-primary);"></i> 4+ Years at Matebiz</span>
+              <span class="skill-pill"><i class="fa-brands fa-shopify text-success"></i> Shopify Liquid</span>
+              <span class="skill-pill"><i class="fa-brands fa-wordpress" style="color: #0284c7;"></i> WordPress Elementor</span>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="d-flex flex-wrap align-items-center gap-3">
+              <a href="#projects" class="btn btn-gradient">
+                <i class="fa-solid fa-layer-group"></i> View Projects
+              </a>
+              <a href="#contact" class="btn btn-soft-purple">
+                <i class="fa-solid fa-envelope"></i> Get in Touch
+              </a>
+              <button class="btn btn-sm-glass py-2 px-3" data-copy="sanjanash2034@gmail.com" data-label="Email copied: sanjanash2034@gmail.com" title="Copy Email">
+                <i class="fa-regular fa-copy me-1" style="color: var(--purple-primary);"></i> Copy Email
+              </button>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Code Terminal & Floating Badges -->
+          <div class="col-lg-5 wow animate__fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="position-relative">
+              <!-- Floating Badge 1: Shopify -->
+              <div class="floating-badge badge-1">
+                <i class="fa-brands fa-shopify text-success fs-5"></i>
+                <span>Shopify Liquid</span>
+              </div>
+
+              <!-- Floating Badge 2: WordPress Elementor -->
+              <div class="floating-badge badge-2">
+                <i class="fa-brands fa-wordpress" style="color: #0284c7; font-size: 1.2rem;"></i>
+                <span>Elementor Pro</span>
+              </div>
+
+              <!-- Floating Badge 3: Frontend -->
+              <div class="floating-badge badge-3 d-none d-sm-flex">
+                <i class="fa-brands fa-bootstrap" style="color: #7952b3; font-size: 1.2rem;"></i>
+                <span>Bootstrap 5</span>
+              </div>
+
+              <!-- Terminal Card (Light Clean Theme) -->
+              <div class="terminal-card">
+                <div class="terminal-header">
+                  <div class="terminal-dots">
+                    <span class="terminal-dot dot-red"></span>
+                    <span class="terminal-dot dot-yellow"></span>
+                    <span class="terminal-dot dot-green"></span>
+                  </div>
+                  <span class="terminal-title">sanjana-developer.js</span>
+                  <button class="btn btn-link text-muted p-0 text-decoration-none" data-copy="sanjanash2034@gmail.com" title="Copy Contact" data-label="Contact info copied!">
+                    <i class="fa-regular fa-copy" style="color: var(--purple-primary);"></i>
+                  </button>
+                </div>
+                <div class="terminal-body">
+                  <code>
+                    <span class="code-comment">// Sanjana Sharma - Developer Profile</span><br>
+                    <span class="code-keyword">const</span> <span class="code-prop">developer</span> = {<br>
+                    &nbsp;&nbsp;<span class="code-prop">name</span>: <span class="code-string">'Sanjana Sharma'</span>,<br>
+                    &nbsp;&nbsp;<span class="code-prop">location</span>: <span class="code-string">'Delhi, India'</span>,<br>
+                    &nbsp;&nbsp;<span class="code-prop">experience</span>: <span class="code-string">'5+ Years'</span>,<br>
+                    &nbsp;&nbsp;<span class="code-prop">agencyRole</span>: <span class="code-string">'Matebiz (4+ Years)'</span>,<br>
+                    &nbsp;&nbsp;<span class="code-prop">coreSkills</span>: [<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">'Shopify &amp; Liquid'</span>,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">'WordPress &amp; Elementor Pro'</span>,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">'HTML5 / CSS3 / JavaScript'</span><br>
+                    &nbsp;&nbsp;],<br>
+                    &nbsp;&nbsp;<span class="code-prop">available</span>: <span class="code-keyword">true</span><br>
+                    };<br><br>
+                    <span class="code-keyword">export default</span> developer;
+                  </code>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         STATS & METRICS BAR
+         ========================================================================== -->
+    <section id="statsSection" class="py-4">
+      <div class="container">
+        <div class="stats-container wow animate__fadeInUp" data-wow-duration="0.8s">
+          <div class="row g-4 text-center">
+            <div class="col-6 col-md-3">
+              <div class="stat-item">
+                <div class="stat-number gradient-text stat-counter" data-target="5" data-suffix="+">5+</div>
+                <p class="stat-label">Years of Experience</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="stat-item">
+                <div class="stat-number gradient-text-alt stat-counter" data-target="4" data-suffix="+">4+</div>
+                <p class="stat-label">Years at Matebiz</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="stat-item">
+                <div class="stat-number gradient-text stat-counter" data-target="30" data-suffix="+">30+</div>
+                <p class="stat-label">Websites Delivered</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="stat-item">
+                <div class="stat-number gradient-text-alt stat-counter" data-target="100" data-suffix="%">100%</div>
+                <p class="stat-label">Responsive &amp; Optimized</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT ME SECTION (STREAMLINED & CONCISE)
+         ========================================================================== -->
+    <section id="about" class="py-5 my-3">
+      <div class="container">
+        <div class="text-center mb-5 wow animate__fadeInUp" data-wow-duration="0.8s">
+          <span class="section-tag"><i class="fa-regular fa-user"></i> About Me</span>
+          <h2 class="section-title">Clean, Elegant &amp; High-Converting Web Design</h2>
+          <p class="section-desc mx-auto">Combining modern frontend architecture, Shopify Liquid themes, and Elementor customization to craft responsive digital experiences.</p>
+        </div>
+
+        <div class="row align-items-center gy-4">
+          <!-- Left Column: Avatar & Direct Quick Contact Card -->
+          <div class="col-lg-5 wow animate__fadeInLeft" data-wow-duration="0.9s">
+            <div class="glass-card p-4 text-center">
+              <div class="position-relative mx-auto mb-4" style="max-width: 250px;">
+                <img src="assets/images/developer-avatar.svg" alt="Sanjana Sharma - Frontend Developer" class="img-fluid rounded-circle shadow-sm" loading="lazy">
+              </div>
+              <h3 class="h5 fw-bold mb-1" style="color: var(--text-heading);">Sanjana Sharma</h3>
+              <p class="mb-3 font-monospace small" style="color: var(--purple-primary); font-weight: 600;">Frontend • Shopify • WordPress Developer</p>
+              
+              <div class="d-flex justify-content-center flex-wrap gap-2 mb-3">
+                <a href="https://www.linkedin.com/in/sanjana-sharma-012557256/" target="_blank" rel="noopener noreferrer" class="btn btn-sm-glass">
+                  <i class="fa-brands fa-linkedin text-primary me-1"></i> LinkedIn
+                </a>
+                <a href="mailto:sanjanash2034@gmail.com" class="btn btn-sm-glass">
+                  <i class="fa-regular fa-envelope text-danger me-1"></i> Email
+                </a>
+                <a href="tel:+919873942709" class="btn btn-sm-glass">
+                  <i class="fa-solid fa-phone text-success me-1"></i> Call
+                </a>
+              </div>
+
+              <div class="p-3 rounded-4" style="background: var(--purple-wash); border: 1px solid var(--border-subtle);">
+                <div class="row text-start g-2 small" style="color: var(--text-muted);">
+                  <div class="col-6"><strong style="color: var(--text-heading);">Location:</strong> Delhi, India</div>
+                  <div class="col-6"><strong style="color: var(--text-heading);">Education:</strong> B.A. Degree</div>
+                  <div class="col-6"><strong style="color: var(--text-heading);">Experience:</strong> 5+ Years</div>
+                  <div class="col-6"><strong style="color: var(--text-heading);">Agency:</strong> Matebiz (4+ Yrs)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Professional Summary (Concise Content) -->
+          <div class="col-lg-7 wow animate__fadeInRight" data-wow-duration="0.9s" data-wow-delay="0.15s">
+            <div class="ps-lg-3">
+              <h3 class="h4 fw-bold mb-3" style="color: var(--text-heading);">
+                Transforming Designs into <span class="gradient-text">Pixel-Perfect Websites</span>
+              </h3>
+              
+              <p class="mb-3">
+                I specialize in converting Figma and Adobe XD designs into responsive, high-performing websites. Over <strong>4+ years at Matebiz</strong>, I have delivered custom Shopify stores, WordPress Elementor portals, and modern frontend interfaces.
+              </p>
+              
+              <p class="mb-4">
+                My focus is clean code, speed optimization, and cross-browser reliability that drives conversion and provides an exceptional user experience.
+              </p>
+
+              <!-- 3 Feature Highlight Cards -->
+              <div class="row g-3 mb-4">
+                <div class="col-md-4">
+                  <div class="glass-card p-3 h-100">
+                    <div class="fs-4 mb-2" style="color: #10b981;"><i class="fa-brands fa-shopify"></i></div>
+                    <h4 class="h6 fw-bold mb-1" style="color: var(--text-heading);">Shopify Development</h4>
+                    <p class="small text-muted mb-0">Custom sections, Liquid logic, Dawn theme customization, and speed optimization.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="glass-card p-3 h-100">
+                    <div class="fs-4 mb-2" style="color: #0284c7;"><i class="fa-brands fa-wordpress"></i></div>
+                    <h4 class="h6 fw-bold mb-1" style="color: var(--text-heading);">WordPress Elementor</h4>
+                    <p class="small text-muted mb-0">Elementor Pro modules, WooCommerce stores, and responsive landing pages.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="glass-card p-3 h-100">
+                    <div class="fs-4 mb-2" style="color: var(--purple-primary);"><i class="fa-solid fa-code"></i></div>
+                    <h4 class="h6 fw-bold mb-1" style="color: var(--text-heading);">Frontend UI</h4>
+                    <p class="small text-muted mb-0">Pixel-perfect HTML5, CSS3, JavaScript, and Bootstrap responsive layouts.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Action Links -->
+              <div class="d-flex align-items-center gap-3">
+                <a href="#contact" class="btn btn-gradient">
+                  <i class="fa-solid fa-handshake"></i> Work With Me
+                </a>
+                <a href="https://www.linkedin.com/in/sanjana-sharma-012557256/" target="_blank" rel="noopener noreferrer" class="btn btn-soft-purple">
+                  <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SKILLS & CORE EXPERTISE SECTION
+         ========================================================================== -->
+    <section id="skills" class="py-5 bg-soft-tint position-relative">
+      <div class="container">
+        <div class="text-center mb-5 wow animate__fadeInUp" data-wow-duration="0.8s">
+          <span class="section-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Technical Stack</span>
+          <h2 class="section-title">Core Skills &amp; Competencies</h2>
+          <p class="section-desc mx-auto">Key technologies I utilize daily to build high-performance e-commerce and web platforms.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- 1. Frontend Development Card -->
+          <div class="col-md-6 col-lg-3 wow animate__fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+            <div class="glass-card skill-card">
+              <div class="skill-icon-wrapper">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-3" style="color: var(--text-heading);">Frontend</h3>
+              <p class="small text-muted mb-3">Core web engineering for building responsive, cross-browser interfaces.</p>
+              
+              <div class="d-flex flex-wrap gap-2">
+                <span class="skill-pill"><i class="fa-brands fa-html5 text-danger"></i> HTML5</span>
+                <span class="skill-pill"><i class="fa-brands fa-css3-alt text-primary"></i> CSS3</span>
+                <span class="skill-pill"><i class="fa-brands fa-js text-warning"></i> JavaScript</span>
+                <span class="skill-pill"><i class="fa-solid fa-code text-info"></i> jQuery</span>
+                <span class="skill-pill"><i class="fa-brands fa-bootstrap" style="color: #7952b3;"></i> Bootstrap</span>
+                <span class="skill-pill"><i class="fa-solid fa-wind" style="color: #06b6d4;"></i> Tailwind CSS</span>
+                <span class="skill-pill"><i class="fa-solid fa-mobile-screen-button text-success"></i> Responsive</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Shopify Ecosystem Card -->
+          <div class="col-md-6 col-lg-3 wow animate__fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+            <div class="glass-card skill-card">
+              <div class="skill-icon-wrapper" style="color: #10b981; background: #ecfdf5; border-color: #a7f3d0;">
+                <i class="fa-brands fa-shopify"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-3" style="color: var(--text-heading);">Shopify</h3>
+              <p class="small text-muted mb-3">Custom themes, store setup, Liquid templating, and speed enhancement.</p>
+              
+              <div class="d-flex flex-wrap gap-2">
+                <span class="skill-pill"><i class="fa-solid fa-droplet text-info"></i> Liquid</span>
+                <span class="skill-pill"><i class="fa-solid fa-sun text-warning"></i> Dawn Theme</span>
+                <span class="skill-pill"><i class="fa-solid fa-cubes text-success"></i> Custom Sections</span>
+                <span class="skill-pill"><i class="fa-solid fa-sliders" style="color: var(--purple-primary);"></i> Customization</span>
+                <span class="skill-pill"><i class="fa-solid fa-gauge-high text-danger"></i> Performance</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. WordPress & Elementor Card -->
+          <div class="col-md-6 col-lg-3 wow animate__fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+            <div class="glass-card skill-card">
+              <div class="skill-icon-wrapper" style="color: #0284c7; background: #f0f9ff; border-color: #bae6fd;">
+                <i class="fa-brands fa-wordpress"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-3" style="color: var(--text-heading);">WordPress</h3>
+              <p class="small text-muted mb-3">Custom websites, agency portals, WooCommerce stores, and dynamic layouts.</p>
+              
+              <div class="d-flex flex-wrap gap-2">
+                <span class="skill-pill"><i class="fa-solid fa-layer-group text-primary"></i> Elementor Pro</span>
+                <span class="skill-pill"><i class="fa-brands fa-wordpress-simple" style="color: #0284c7;"></i> WordPress</span>
+                <span class="skill-pill"><i class="fa-solid fa-cart-shopping text-danger"></i> WooCommerce</span>
+                <span class="skill-pill"><i class="fa-solid fa-puzzle-piece text-warning"></i> Premium Addons</span>
+                <span class="skill-pill"><i class="fa-solid fa-shield-halved text-success"></i> SEO &amp; Security</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Tools Card -->
+          <div class="col-md-6 col-lg-3 wow animate__fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+            <div class="glass-card skill-card">
+              <div class="skill-icon-wrapper" style="color: #ec4899; background: #fdf2f8; border-color: #fbcfe8;">
+                <i class="fa-solid fa-toolbox"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-3" style="color: var(--text-heading);">Tools</h3>
+              <p class="small text-muted mb-3">Design handover tools, version control, and development workflows.</p>
+              
+              <div class="d-flex flex-wrap gap-2">
+                <span class="skill-pill"><i class="fa-brands fa-git-alt text-danger"></i> Git</span>
+                <span class="skill-pill"><i class="fa-brands fa-github text-dark"></i> GitHub</span>
+                <span class="skill-pill"><i class="fa-solid fa-code text-info"></i> VS Code</span>
+                <span class="skill-pill"><i class="fa-brands fa-figma text-danger"></i> Figma</span>
+                <span class="skill-pill"><i class="fa-solid fa-image text-primary"></i> Photoshop</span>
+                <span class="skill-pill"><i class="fa-brands fa-chrome text-warning"></i> DevTools</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Continuous Smooth Skills Ticker (Powered by Slick Slider) -->
+        <div class="skills-ticker-wrapper wow animate__fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+          <div class="skills-ticker-slider">
+            <div class="ticker-item"><span class="ticker-badge"><i class="fa-brands fa-shopify text-success"></i> Shopify Liquid</span></div>
+            <div class="ticker-item"><span class="ticker-badge"><i class="fa-brands fa-wordpress" style="color: #0284c7;"></i> Elementor Pro</span></div>
+            <div class="ticker-item"><span class="ticker-badge"><i class="fa-brands fa-html5 text-danger"></i> HTML5 Semantic</span></div>
+            <div class="ticker-item"><span class="ticker-badge"><i class="fa-brands fa-css3-alt text-primary"></i> Modern CSS3</span></div>
+            <div class="ticker-item"><span class="ticker-badge"><i class="fa-brands fa-js text-warning"></i> JavaScript</span></div>
+            <div class="ticker-item"><span class="ticker-badge"><i class="fa-brands fa-bootstrap" style="color: #7952b3;"></i> Bootstrap 5</span></div>
+            <div class="ticker-item"><span class="ticker-badge"><i class="fa-solid fa-wind" style="color: #06b6d4;"></i> Tailwind CSS</span></div>
+            <div class="ticker-item"><span class="ticker-badge"><i class="fa-brands fa-figma text-danger"></i> Figma to Code</span></div>
+            <div class="ticker-item"><span class="ticker-badge"><i class="fa-solid fa-cart-shopping text-danger"></i> WooCommerce</span></div>
+            <div class="ticker-item"><span class="ticker-badge"><i class="fa-brands fa-github text-dark"></i> Git &amp; GitHub</span></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROFESSIONAL EXPERIENCE & EDUCATION SECTION
+         ========================================================================== -->
+    <section id="experience" class="py-5 my-3">
+      <div class="container">
+        <div class="text-center mb-5 wow animate__fadeInUp" data-wow-duration="0.8s">
+          <span class="section-tag"><i class="fa-solid fa-business-time"></i> Career Journey</span>
+          <h2 class="section-title">Work Experience &amp; Education</h2>
+          <p class="section-desc mx-auto">Demonstrated track record of delivering live commercial web platforms with agency precision.</p>
+        </div>
+
+        <div class="row justify-content-center gy-4">
+          <div class="col-lg-10 wow animate__fadeInUp" data-wow-duration="0.9s">
+            <!-- Experience Card: Matebiz -->
+            <div class="glass-card timeline-card glow-border mb-4">
+              <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+                <div>
+                  <h3 class="h5 fw-bold mb-1" style="color: var(--text-heading);">Frontend Developer</h3>
+                  <div class="d-flex align-items-center gap-2 font-monospace small" style="color: var(--purple-primary); font-weight: 600;">
+                    <span><i class="fa-regular fa-building"></i> Matebiz</span>
+                    <span>•</span>
+                    <span><i class="fa-solid fa-location-dot"></i> Delhi, India</span>
+                  </div>
+                </div>
+                <div class="timeline-badge">
+                  <i class="fa-regular fa-clock me-1"></i> Experience: 4+ Years
+                </div>
+              </div>
+
+              <p class="text-muted mb-4">
+                Spearheaded frontend web engineering, bespoke Shopify themes, and Elementor website development across global client projects.
+              </p>
+
+              <h4 class="h6 fw-bold mb-3" style="color: var(--text-heading);">Core Responsibilities:</h4>
+              <ul class="list-unstyled experience-list mb-4">
+                <li>Developed responsive websites using <strong>HTML5, CSS3, JavaScript, Shopify</strong>, and <strong>WordPress</strong>.</li>
+                <li>Built <strong>Elementor websites</strong> and customized <strong>Shopify themes</strong> with custom Liquid sections.</li>
+                <li>Converted <strong>Figma/PSD/XD designs</strong> into responsive, accessible websites.</li>
+                <li>Optimized performance and maintained clean, reusable, cross-browser compliant code.</li>
+              </ul>
+
+              <!-- Technologies Used in Role -->
+              <div class="pt-3 border-top d-flex flex-wrap align-items-center gap-2" style="border-color: var(--border-subtle) !important;">
+                <span class="small text-muted me-2 fw-semibold">Tech Stack:</span>
+                <span class="project-tech-tag">Shopify Liquid</span>
+                <span class="project-tech-tag">WordPress Elementor Pro</span>
+                <span class="project-tech-tag">HTML5 / CSS3</span>
+                <span class="project-tech-tag">JavaScript</span>
+                <span class="project-tech-tag">Bootstrap</span>
+                <span class="project-tech-tag">Figma</span>
+              </div>
+            </div>
+
+            <!-- Education Card: Bachelor of Arts -->
+            <div class="glass-card p-4 d-flex align-items-center gap-3">
+              <div class="skill-icon-wrapper mb-0" style="width: 48px; height: 48px; font-size: 1.25rem;">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <div>
+                <h4 class="h6 fw-bold mb-1" style="color: var(--text-heading);">Bachelor of Arts (B.A.)</h4>
+                <p class="small text-muted mb-0">Undergraduate Degree • Creative communication and problem solving.</p>
+              </div>
+              <span class="badge ms-auto py-2 px-3 rounded-pill" style="background: var(--purple-wash); color: var(--purple-primary); border: 1px solid var(--purple-tint); font-size: 0.85rem;">
+                Completed Degree
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FEATURED PROJECTS SHOWCASE (SLICK SLIDER + FILTERABLE GRID)
+         ========================================================================== -->
+    <section id="projects" class="py-5 bg-soft-tint">
+      <div class="container">
+        <div class="text-center mb-5 wow animate__fadeInUp" data-wow-duration="0.8s">
+          <span class="section-tag"><i class="fa-solid fa-laptop-code"></i> Featured Work</span>
+          <h2 class="section-title">Live Commercial Projects</h2>
+          <p class="section-desc mx-auto">Explore live websites I have built, customized, and launched across WordPress, Shopify, and Frontend web stacks.</p>
+
+          <!-- View Mode Switcher -->
+          <div class="d-flex justify-content-center align-items-center gap-2 mt-4">
+            <button id="viewSliderBtn" class="view-switch-btn active" type="button">
+              <i class="fa-solid fa-sliders"></i> Slider View
+            </button>
+            <button id="viewGridBtn" class="view-switch-btn" type="button">
+              <i class="fa-solid fa-table-cells-large"></i> Grid View
+            </button>
+          </div>
+        </div>
+
+        <!-- --------------------------------------------------
+             MODE 1: SLICK SLIDER CAROUSEL VIEW
+             -------------------------------------------------- -->
+        <div id="projectsSliderView" class="mb-5 wow animate__fadeIn" data-wow-duration="0.9s">
+          <div class="projects-slick-slider">
+
+            <!-- Slide 1: Adaptrix AI -->
+            <div class="slick-item">
+              <div class="glass-card project-card">
+                <div class="project-img-wrapper">
+                  <span class="project-badge-top badge-wordpress"><i class="fa-brands fa-wordpress me-1"></i> WordPress / Elementor</span>
+                  <img src="assets/images/project1-adaptrix.svg" alt="Adaptrix AI - WordPress Elementor Platform" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">Adaptrix AI</h3>
+                  <p class="small text-muted mb-3">
+                    Enterprise AI platform built with custom Elementor Pro sections, responsive UI, and speed optimization.
+                  </p>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="project-tech-tag">WordPress</span>
+                    <span class="project-tech-tag">Elementor Pro</span>
+                    <span class="project-tech-tag">Responsive UI</span>
+                  </div>
+                  <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top" style="border-color: var(--border-subtle) !important;">
+                    <a href="https://adaptrixai.com/" target="_blank" rel="noopener noreferrer" class="btn btn-gradient btn-sm">
+                      Live Preview <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                    </a>
+                    <button class="btn btn-sm-glass py-1 px-2" data-copy="https://adaptrixai.com/" title="Copy URL" data-label="URL copied: https://adaptrixai.com/">
+                      <i class="fa-solid fa-link" style="color: var(--purple-primary);"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2: NGO Monk -->
+            <div class="slick-item">
+              <div class="glass-card project-card">
+                <div class="project-img-wrapper">
+                  <span class="project-badge-top badge-wordpress"><i class="fa-brands fa-wordpress me-1"></i> WordPress / Elementor</span>
+                  <img src="assets/images/project2-ngomonk.svg" alt="NGO Monk - Non-Profit Platform" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">NGO Monk</h3>
+                  <p class="small text-muted mb-3">
+                    Global non-profit platform with dynamic campaign modules, donor forms, and clean mobile responsiveness.
+                  </p>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="project-tech-tag">WordPress</span>
+                    <span class="project-tech-tag">Elementor Pro</span>
+                    <span class="project-tech-tag">Performance</span>
+                  </div>
+                  <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top" style="border-color: var(--border-subtle) !important;">
+                    <a href="https://ngomonk.com/" target="_blank" rel="noopener noreferrer" class="btn btn-gradient btn-sm">
+                      Live Preview <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                    </a>
+                    <button class="btn btn-sm-glass py-1 px-2" data-copy="https://ngomonk.com/" title="Copy URL" data-label="URL copied: https://ngomonk.com/">
+                      <i class="fa-solid fa-link" style="color: var(--purple-primary);"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3: The Accessory Edit -->
+            <div class="slick-item">
+              <div class="glass-card project-card">
+                <div class="project-img-wrapper">
+                  <span class="project-badge-top badge-shopify"><i class="fa-brands fa-shopify me-1"></i> Shopify Liquid</span>
+                  <img src="assets/images/project3-accessoryedit.svg" alt="The Accessory Edit - Shopify Store" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">The Accessory Edit</h3>
+                  <p class="small text-muted mb-3">
+                    Boutique fashion accessories Shopify store with custom Liquid templates, AJAX cart, and fast checkout.
+                  </p>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="project-tech-tag">Shopify</span>
+                    <span class="project-tech-tag">Liquid</span>
+                    <span class="project-tech-tag">HTML5 / JS</span>
+                  </div>
+                  <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top" style="border-color: var(--border-subtle) !important;">
+                    <a href="https://theaccessoryedit.com/" target="_blank" rel="noopener noreferrer" class="btn btn-gradient btn-sm">
+                      Live Preview <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                    </a>
+                    <button class="btn btn-sm-glass py-1 px-2" data-copy="https://theaccessoryedit.com/" title="Copy URL" data-label="URL copied: https://theaccessoryedit.com/">
+                      <i class="fa-solid fa-link" style="color: var(--purple-primary);"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4: Baneraa -->
+            <div class="slick-item">
+              <div class="glass-card project-card">
+                <div class="project-img-wrapper">
+                  <span class="project-badge-top badge-shopify"><i class="fa-brands fa-shopify me-1"></i> Shopify Liquid</span>
+                  <img src="assets/images/project4-baneraa.svg" alt="Baneraa - Indian Ethnic Wear Shopify Store" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">Baneraa</h3>
+                  <p class="small text-muted mb-3">
+                    Indian ethnic wear store featuring custom Liquid sections, product filtering, and mobile-first UX.
+                  </p>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="project-tech-tag">Shopify</span>
+                    <span class="project-tech-tag">Liquid Theme</span>
+                    <span class="project-tech-tag">Mobile First</span>
+                  </div>
+                  <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top" style="border-color: var(--border-subtle) !important;">
+                    <a href="https://baneraa.in/" target="_blank" rel="noopener noreferrer" class="btn btn-gradient btn-sm">
+                      Live Preview <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                    </a>
+                    <button class="btn btn-sm-glass py-1 px-2" data-copy="https://baneraa.in/" title="Copy URL" data-label="URL copied: https://baneraa.in/">
+                      <i class="fa-solid fa-link" style="color: var(--purple-primary);"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 5: Ark Renovations -->
+            <div class="slick-item">
+              <div class="glass-card project-card">
+                <div class="project-img-wrapper">
+                  <span class="project-badge-top badge-frontend"><i class="fa-brands fa-bootstrap me-1"></i> Frontend / Bootstrap</span>
+                  <img src="assets/images/project5-arkrenovations.svg" alt="Ark Renovations Australia" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">Ark Renovations</h3>
+                  <p class="small text-muted mb-3">
+                    Australian architectural renovation showcase built with responsive Bootstrap 5 and quotation forms.
+                  </p>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="project-tech-tag">HTML5</span>
+                    <span class="project-tech-tag">CSS3</span>
+                    <span class="project-tech-tag">Bootstrap</span>
+                  </div>
+                  <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top" style="border-color: var(--border-subtle) !important;">
+                    <a href="https://arkrenovations.com.au/" target="_blank" rel="noopener noreferrer" class="btn btn-gradient btn-sm">
+                      Live Preview <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                    </a>
+                    <button class="btn btn-sm-glass py-1 px-2" data-copy="https://arkrenovations.com.au/" title="Copy URL" data-label="URL copied: https://arkrenovations.com.au/">
+                      <i class="fa-solid fa-link" style="color: var(--purple-primary);"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 6: Melbourne Corporate Chauffeurs -->
+            <div class="slick-item">
+              <div class="glass-card project-card">
+                <div class="project-img-wrapper">
+                  <span class="project-badge-top badge-frontend"><i class="fa-brands fa-bootstrap me-1"></i> Frontend / Bootstrap</span>
+                  <img src="assets/images/project6-chauffeurs.svg" alt="Melbourne Corporate Chauffeurs" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">Melbourne Corporate Chauffeurs</h3>
+                  <p class="small text-muted mb-3">
+                    Executive airport transfer reservation web app with responsive vehicle fleet cards and booking flow.
+                  </p>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="project-tech-tag">HTML5</span>
+                    <span class="project-tech-tag">CSS3</span>
+                    <span class="project-tech-tag">JavaScript</span>
+                  </div>
+                  <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top" style="border-color: var(--border-subtle) !important;">
+                    <a href="https://melbournecorporatechauffeurs.com/" target="_blank" rel="noopener noreferrer" class="btn btn-gradient btn-sm">
+                      Live Preview <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                    </a>
+                    <button class="btn btn-sm-glass py-1 px-2" data-copy="https://melbournecorporatechauffeurs.com/" title="Copy URL" data-label="URL copied: https://melbournecorporatechauffeurs.com/">
+                      <i class="fa-solid fa-link" style="color: var(--purple-primary);"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- --------------------------------------------------
+             MODE 2: FILTERABLE GRID VIEW
+             -------------------------------------------------- -->
+        <div id="projectsGridView" class="d-none">
+          <!-- Filter Buttons -->
+          <div class="d-flex flex-wrap justify-content-center gap-2 mb-4">
+            <button class="project-filter-btn active" data-filter="all">All (6)</button>
+            <button class="project-filter-btn" data-filter="shopify"><i class="fa-brands fa-shopify text-success me-1"></i> Shopify (2)</button>
+            <button class="project-filter-btn" data-filter="wordpress"><i class="fa-brands fa-wordpress" style="color: #0284c7;"></i> WordPress (2)</button>
+            <button class="project-filter-btn" data-filter="frontend"><i class="fa-solid fa-code text-danger me-1"></i> Frontend (2)</button>
+          </div>
+
+          <!-- Grid Row -->
+          <div class="row g-4">
+            <!-- 1. Adaptrix AI -->
+            <div class="col-md-6 col-lg-4 project-item" data-category="wordpress">
+              <div class="glass-card project-card">
+                <div class="project-img-wrapper">
+                  <span class="project-badge-top badge-wordpress"><i class="fa-brands fa-wordpress me-1"></i> WordPress / Elementor</span>
+                  <img src="assets/images/project1-adaptrix.svg" alt="Adaptrix AI" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">Adaptrix AI</h3>
+                  <p class="small text-muted mb-3">Enterprise AI automation platform with custom Elementor Pro sections.</p>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="project-tech-tag">WordPress</span>
+                    <span class="project-tech-tag">Elementor Pro</span>
+                    <span class="project-tech-tag">Responsive</span>
+                  </div>
+                  <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top" style="border-color: var(--border-subtle) !important;">
+                    <a href="https://adaptrixai.com/" target="_blank" rel="noopener noreferrer" class="btn btn-gradient btn-sm">Live Preview <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a>
+                    <button class="btn btn-sm-glass py-1 px-2" data-copy="https://adaptrixai.com/"><i class="fa-solid fa-link" style="color: var(--purple-primary);"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. NGO Monk -->
+            <div class="col-md-6 col-lg-4 project-item" data-category="wordpress">
+              <div class="glass-card project-card">
+                <div class="project-img-wrapper">
+                  <span class="project-badge-top badge-wordpress"><i class="fa-brands fa-wordpress me-1"></i> WordPress / Elementor</span>
+                  <img src="assets/images/project2-ngomonk.svg" alt="NGO Monk" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">NGO Monk</h3>
+                  <p class="small text-muted mb-3">Non-profit organization platform featuring dynamic layouts and responsive design.</p>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="project-tech-tag">WordPress</span>
+                    <span class="project-tech-tag">Elementor Pro</span>
+                    <span class="project-tech-tag">Donation UI</span>
+                  </div>
+                  <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top" style="border-color: var(--border-subtle) !important;">
+                    <a href="https://ngomonk.com/" target="_blank" rel="noopener noreferrer" class="btn btn-gradient btn-sm">Live Preview <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a>
+                    <button class="btn btn-sm-glass py-1 px-2" data-copy="https://ngomonk.com/"><i class="fa-solid fa-link" style="color: var(--purple-primary);"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. The Accessory Edit -->
+            <div class="col-md-6 col-lg-4 project-item" data-category="shopify">
+              <div class="glass-card project-card">
+                <div class="project-img-wrapper">
+                  <span class="project-badge-top badge-shopify"><i class="fa-brands fa-shopify me-1"></i> Shopify Liquid</span>
+                  <img src="assets/images/project3-accessoryedit.svg" alt="The Accessory Edit" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">The Accessory Edit</h3>
+                  <p class="small text-muted mb-3">Boutique accessories e-commerce store with custom Liquid templating and AJAX cart.</p>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="project-tech-tag">Shopify</span>
+                    <span class="project-tech-tag">Liquid</span>
+                    <span class="project-tech-tag">AJAX Cart</span>
+                  </div>
+                  <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top" style="border-color: var(--border-subtle) !important;">
+                    <a href="https://theaccessoryedit.com/" target="_blank" rel="noopener noreferrer" class="btn btn-gradient btn-sm">Live Preview <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a>
+                    <button class="btn btn-sm-glass py-1 px-2" data-copy="https://theaccessoryedit.com/"><i class="fa-solid fa-link" style="color: var(--purple-primary);"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4. Baneraa -->
+            <div class="col-md-6 col-lg-4 project-item" data-category="shopify">
+              <div class="glass-card project-card">
+                <div class="project-img-wrapper">
+                  <span class="project-badge-top badge-shopify"><i class="fa-brands fa-shopify me-1"></i> Shopify Liquid</span>
+                  <img src="assets/images/project4-baneraa.svg" alt="Baneraa Ethnic Wear" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">Baneraa</h3>
+                  <p class="small text-muted mb-3">Indian ethnic fashion store with custom sections, product filters, and fast checkout.</p>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="project-tech-tag">Shopify</span>
+                    <span class="project-tech-tag">Liquid</span>
+                    <span class="project-tech-tag">Mobile First</span>
+                  </div>
+                  <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top" style="border-color: var(--border-subtle) !important;">
+                    <a href="https://baneraa.in/" target="_blank" rel="noopener noreferrer" class="btn btn-gradient btn-sm">Live Preview <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a>
+                    <button class="btn btn-sm-glass py-1 px-2" data-copy="https://baneraa.in/"><i class="fa-solid fa-link" style="color: var(--purple-primary);"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5. Ark Renovations -->
+            <div class="col-md-6 col-lg-4 project-item" data-category="frontend">
+              <div class="glass-card project-card">
+                <div class="project-img-wrapper">
+                  <span class="project-badge-top badge-frontend"><i class="fa-brands fa-bootstrap me-1"></i> Frontend / Bootstrap</span>
+                  <img src="assets/images/project5-arkrenovations.svg" alt="Ark Renovations Australia" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">Ark Renovations</h3>
+                  <p class="small text-muted mb-3">Australian architectural remodeling platform with responsive Bootstrap 5.</p>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="project-tech-tag">HTML5</span>
+                    <span class="project-tech-tag">CSS3</span>
+                    <span class="project-tech-tag">Bootstrap</span>
+                  </div>
+                  <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top" style="border-color: var(--border-subtle) !important;">
+                    <a href="https://arkrenovations.com.au/" target="_blank" rel="noopener noreferrer" class="btn btn-gradient btn-sm">Live Preview <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a>
+                    <button class="btn btn-sm-glass py-1 px-2" data-copy="https://arkrenovations.com.au/"><i class="fa-solid fa-link" style="color: var(--purple-primary);"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 6. Melbourne Corporate Chauffeurs -->
+            <div class="col-md-6 col-lg-4 project-item" data-category="frontend">
+              <div class="glass-card project-card">
+                <div class="project-img-wrapper">
+                  <span class="project-badge-top badge-frontend"><i class="fa-brands fa-bootstrap me-1"></i> Frontend / Bootstrap</span>
+                  <img src="assets/images/project6-chauffeurs.svg" alt="Melbourne Corporate Chauffeurs" loading="lazy">
+                </div>
+                <div class="project-body">
+                  <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">Melbourne Corporate Chauffeurs</h3>
+                  <p class="small text-muted mb-3">VIP airport transfer booking platform with dynamic vehicle listings.</p>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="project-tech-tag">HTML5</span>
+                    <span class="project-tech-tag">CSS3</span>
+                    <span class="project-tech-tag">JavaScript</span>
+                  </div>
+                  <div class="mt-auto d-flex justify-content-between align-items-center pt-3 border-top" style="border-color: var(--border-subtle) !important;">
+                    <a href="https://melbournecorporatechauffeurs.com/" target="_blank" rel="noopener noreferrer" class="btn btn-gradient btn-sm">Live Preview <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a>
+                    <button class="btn btn-sm-glass py-1 px-2" data-copy="https://melbournecorporatechauffeurs.com/"><i class="fa-solid fa-link" style="color: var(--purple-primary);"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CLIENT REVIEWS (POWERED BY SLICK SLIDER)
+         ========================================================================== -->
+    <section id="reviews" style="display: none;" class="py-5 my-3">
+      <div class="container">
+        <div class="text-center mb-5 wow animate__fadeInUp" data-wow-duration="0.8s">
+          <span class="section-tag"><i class="fa-solid fa-star"></i> Endorsements</span>
+          <h2 class="section-title">Client Praise &amp; Feedback</h2>
+          <p class="section-desc mx-auto">Feedback from project owners and agency leaders on code quality, speed, and communication.</p>
+        </div>
+
+        <div class="testimonials-slick-slider wow animate__fadeInUp" data-wow-duration="0.9s">
+          <!-- Review 1 -->
+          <div class="slick-item">
+            <div class="testimonial-card">
+              <div class="testimonial-quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Sanjana's expertise in Shopify Liquid is top-tier. She built custom sections that were intuitive to configure, lightning fast, and significantly boosted our conversions."
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">A</div>
+                <div>
+                  <h4 class="h6 fw-bold mb-0" style="color: var(--text-heading);">Aarav Patel</h4>
+                  <span class="small text-muted">Founder • The Accessory Edit</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="slick-item">
+            <div class="testimonial-card">
+              <div class="testimonial-quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Working with Sanjana on our Elementor Pro website was seamless. She translated our Figma mockups into pixel-perfect pages and optimized every asset."
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar" style="background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);">R</div>
+                <div>
+                  <h4 class="h6 fw-bold mb-0" style="color: var(--text-heading);">Ritu Mehra</h4>
+                  <span class="small text-muted">Marketing Lead • Adaptrix AI</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="slick-item">
+            <div class="testimonial-card">
+              <div class="testimonial-quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Reliable, detail-oriented, and proficient. Sanjana rebuilt our Baneraa Shopify theme with clean Liquid code that trimmed our load times by over 40%."
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar" style="background: linear-gradient(135deg, #7c3aed 0%, #06b6d4 100%);">N</div>
+                <div>
+                  <h4 class="h6 fw-bold mb-0" style="color: var(--text-heading);">Neha Singhania</h4>
+                  <span class="small text-muted">Creative Director • Baneraa Fashion</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 4 -->
+          <div class="slick-item">
+            <div class="testimonial-card">
+              <div class="testimonial-quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <div class="testimonial-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Her agency background at Matebiz shines through in how organized her code is. Always on time, responsive, and proactive with frontend solutions."
+              </p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar" style="background: linear-gradient(135deg, #ec4899 0%, #f59e0b 100%);">D</div>
+                <div>
+                  <h4 class="h6 fw-bold mb-0" style="color: var(--text-heading);">David Miller</h4>
+                  <span class="small text-muted">Technical Lead • Melbourne Chauffeurs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SERVICES & SPECIALIZATIONS
+         ========================================================================== -->
+    <section id="services" class="py-5 bg-soft-tint">
+      <div class="container">
+        <div class="text-center mb-5 wow animate__fadeInUp" data-wow-duration="0.8s">
+          <span class="section-tag"><i class="fa-solid fa-gear"></i> What I Offer</span>
+          <h2 class="section-title">Specialized Web Services</h2>
+          <p class="section-desc mx-auto">End-to-end development focused on clean visual design, fast loading, and business results.</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Service 1 -->
+          <div class="col-md-6 col-lg-3 wow animate__fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+            <div class="glass-card service-card">
+              <div class="service-icon">
+                <i class="fa-brands fa-shopify"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">Shopify Development</h3>
+              <p class="small text-muted mb-0">
+                Custom theme setup, Dawn customization, Liquid sections, app integrations, and checkout speed optimization.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="col-md-6 col-lg-3 wow animate__fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+            <div class="glass-card service-card">
+              <div class="service-icon" style="color: #0284c7;">
+                <i class="fa-brands fa-wordpress"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">WordPress &amp; Elementor</h3>
+              <p class="small text-muted mb-0">
+                Elementor Pro landing pages, WooCommerce stores, dynamic templates, and easy-to-manage client editing setups.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="col-md-6 col-lg-3 wow animate__fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+            <div class="glass-card service-card">
+              <div class="service-icon" style="color: #ec4899;">
+                <i class="fa-solid fa-object-group"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">Figma to Clean Code</h3>
+              <p class="small text-muted mb-0">
+                Converting Figma, PSD, or Adobe XD mockups into semantic, accessible, and pixel-perfect HTML5/CSS3/JS pages.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="col-md-6 col-lg-3 wow animate__fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+            <div class="glass-card service-card">
+              <div class="service-icon" style="color: #10b981;">
+                <i class="fa-solid fa-gauge-high"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">Speed &amp; Performance</h3>
+              <p class="small text-muted mb-0">
+                Core Web Vitals auditing, asset compression, cross-browser fixes, and mobile responsiveness troubleshooting.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT & INQUIRY SECTION
+         ========================================================================== -->
+    <section id="contact" class="py-5 my-3">
+      <div class="container">
+        <div class="text-center mb-5 wow animate__fadeInUp" data-wow-duration="0.8s">
+          <span class="section-tag"><i class="fa-regular fa-comments"></i> Get in Touch</span>
+          <h2 class="section-title">Let's Build Something Great Together</h2>
+          <p class="section-desc mx-auto">Have a project in mind, need Shopify / WordPress customization, or want to discuss full-time roles? Reach out!</p>
+        </div>
+
+        <div class="row gy-4">
+          <!-- Left Column: Direct Contact Info Cards -->
+          <div class="col-lg-5 wow animate__fadeInLeft" data-wow-duration="0.9s">
+            <h3 class="h5 fw-bold mb-4" style="color: var(--text-heading);">Contact Information</h3>
+
+            <!-- Email Card -->
+            <div class="glass-card contact-info-card" data-copy="sanjanash2034@gmail.com" data-label="Email copied: sanjanash2034@gmail.com" title="Click to copy email">
+              <div class="contact-info-icon" style="color: #ef4444; background: #fef2f2; border-color: #fecaca;">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div>
+                <span class="small text-muted d-block">Direct Email</span>
+                <a href="mailto:sanjanash2034@gmail.com" class="fw-bold" style="color: var(--text-heading);">sanjanash2034@gmail.com</a>
+              </div>
+              <button class="copy-pill-btn" type="button">
+                <i class="fa-regular fa-copy me-1"></i> Copy
+              </button>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="glass-card contact-info-card" data-copy="+919873942709" data-label="Phone copied: +91 9873942709" title="Click to copy phone">
+              <div class="contact-info-icon" style="color: #10b981; background: #ecfdf5; border-color: #a7f3d0;">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <span class="small text-muted d-block">Phone / WhatsApp</span>
+                <a href="tel:+919873942709" class="fw-bold" style="color: var(--text-heading);">+91 9873942709</a>
+              </div>
+              <button class="copy-pill-btn" type="button">
+                <i class="fa-regular fa-copy me-1"></i> Copy
+              </button>
+            </div>
+
+            <!-- LinkedIn Card -->
+            <a href="https://www.linkedin.com/in/sanjana-sharma-012557256/" target="_blank" rel="noopener noreferrer" class="glass-card contact-info-card text-decoration-none">
+              <div class="contact-info-icon" style="color: #0284c7; background: #f0f9ff; border-color: #bae6fd;">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div>
+                <span class="small text-muted d-block">LinkedIn Profile</span>
+                <span class="fw-bold" style="color: var(--text-heading);">linkedin.com/in/sanjana-sharma</span>
+              </div>
+              <i class="fa-solid fa-arrow-up-right-from-square ms-auto" style="color: var(--purple-primary); font-size: 0.9rem;"></i>
+            </a>
+
+            <!-- Location Card -->
+            <div class="glass-card contact-info-card">
+              <div class="contact-info-icon" style="color: #8b5cf6; background: #f5f3ff; border-color: #ddd6fe;">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <span class="small text-muted d-block">Location</span>
+                <span class="fw-bold" style="color: var(--text-heading);">Delhi, India</span>
+              </div>
+              <span class="badge ms-auto" style="background: #ecfdf5; color: #059669; font-size: 0.8rem; padding: 0.4rem 0.75rem; border-radius: 50px;">
+                Available
+              </span>
+            </div>
+
+            <!-- Coding Visual SVG Asset -->
+            <div class="glass-card p-3 mt-4 text-center">
+              <img src="assets/gifs/coding-animation.svg" alt="Coding Animation Illustration" class="img-fluid rounded-3" style="max-height: 180px;" loading="lazy">
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="col-lg-7 wow animate__fadeInRight" data-wow-duration="0.9s" data-wow-delay="0.15s">
+            <div class="glass-card p-4 p-md-5">
+              <h3 class="h5 fw-bold mb-2" style="color: var(--text-heading);">Send a Message</h3>
+              <p class="text-muted small mb-4">Leave your inquiry below and I'll get back to you promptly.</p>
+
+              <!-- Form Success Alert -->
+              <div id="formSuccessAlert" class="alert alert-success d-none mb-4" role="alert" style="background-color: #ecfdf5; border-color: #a7f3d0; color: #065f46;">
+                <i class="fa-solid fa-circle-check me-2 text-success"></i> Thank you! Your message has been sent. You can also reach me directly at <strong>sanjanash2034@gmail.com</strong>.
+              </div>
+
+              <form id="contactForm" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="contactName" class="form-label small fw-semibold" style="color: var(--text-heading);">Your Name <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control form-control-custom" id="contactName" placeholder="e.g. John Smith" required>
+                    <div class="invalid-feedback small">Please enter your name.</div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="contactEmail" class="form-label small fw-semibold" style="color: var(--text-heading);">Your Email <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control form-control-custom" id="contactEmail" placeholder="e.g. john@example.com" required>
+                    <div class="invalid-feedback small">Please provide a valid email.</div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="contactSubject" class="form-label small fw-semibold" style="color: var(--text-heading);">Project Type <span class="text-danger">*</span></label>
+                    <select class="form-select form-control-custom" id="contactSubject" required>
+                      <option value="" selected disabled>Select project requirement...</option>
+                      <option value="shopify">Shopify Theme Development / Custom Sections</option>
+                      <option value="wordpress">WordPress &amp; Elementor Website Build</option>
+                      <option value="frontend">Frontend Responsive Web (HTML/CSS/JS/Bootstrap)</option>
+                      <option value="figma">Figma / XD to Pixel-Perfect Code</option>
+                      <option value="hiring">Full-Time / Contract Hiring Opportunity</option>
+                      <option value="other">Other Inquiry</option>
+                    </select>
+                    <div class="invalid-feedback small">Please select a subject.</div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="contactMessage" class="form-label small fw-semibold" style="color: var(--text-heading);">Message Details <span class="text-danger">*</span></label>
+                    <textarea class="form-control form-control-custom" id="contactMessage" rows="5" placeholder="Share your project goals, scope, and timeline..." required></textarea>
+                    <div class="invalid-feedback small">Please enter your message.</div>
+                  </div>
+
+                  <div class="col-12 mt-4">
+                    <button type="submit" class="btn btn-gradient w-100 py-3">
+                      <i class="fa-regular fa-paper-plane me-2"></i> Send Inquiry Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER (MODERN, CLEAN & ELEGANT)
+       ========================================================================== -->
+  <footer class="footer-section">
+    <div class="container">
+      <!-- 1. Pre-Footer Call-To-Action Banner -->
+      <div class="footer-cta-card wow animate__fadeInUp" data-wow-duration="0.8s">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-8 text-center text-lg-start">
+            <span class="footer-cta-tag"><i class="fa-solid fa-sparkles"></i> Let's Collaborate</span>
+            <h3 class="h3 fw-bold mb-2" style="color: var(--text-heading);">
+              Ready to elevate your <span class="gradient-text">digital presence?</span>
+            </h3>
+            <p class="mb-0 text-muted" style="max-width: 580px;">
+              Whether you need a custom Shopify theme, a responsive WordPress Elementor site, or a dedicated frontend developer, I am ready to collaborate.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center text-lg-end">
+            <div class="d-flex flex-wrap justify-content-center justify-content-lg-end gap-2">
+              <a href="#contact" class="btn btn-gradient">
+                <i class="fa-regular fa-paper-plane me-1"></i> Start a Project
+              </a>
+              <a href="mailto:sanjanash2034@gmail.com" class="btn btn-soft-purple">
+                <i class="fa-regular fa-envelope me-1"></i> Send Email
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Main 4-Column Footer Navigation & Bio -->
+      <div class="row g-4 gy-5">
+        <!-- Column 1: Brand & Profile Info -->
+        <div class="col-lg-4 col-md-6">
+          <a class="navbar-brand-custom mb-3 d-inline-block" href="#home">
+            <span class="brand-dot"></span>
+            <span class="gradient-text">&lt;Sanjana</span><span style="color: var(--purple-deep);">.Dev/&gt;</span>
+          </a>
+          <p class="text-muted small mb-3" style="line-height: 1.7;">
+            Frontend Developer with <strong>5+ years of experience</strong> crafting custom <strong>Shopify themes</strong>, <strong>WordPress Elementor</strong> websites, and responsive frontend architectures.
+          </p>
+
+          <div class="d-inline-flex align-items-center gap-2 mb-3 footer-status-pill">
+            <span class="status-dot"></span>
+            <span>Available for New Projects</span>
+          </div>
+
+          <div class="footer-meta-info d-flex flex-column gap-1">
+            <div><i class="fa-solid fa-location-dot text-danger me-2"></i> Delhi, India</div>
+            <div><i class="fa-solid fa-briefcase me-2" style="color: var(--purple-primary);"></i> 4+ Years Experience at Matebiz</div>
+            <div><i class="fa-solid fa-graduation-cap me-2" style="color: var(--purple-primary);"></i> Bachelor of Arts (B.A.)</div>
+          </div>
+        </div>
+
+        <!-- Column 2: Navigation Links -->
+        <div class="col-lg-2 col-6">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#home" class="footer-nav-link"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+            <li><a href="#about" class="footer-nav-link"><i class="fa-solid fa-angle-right"></i> About Me</a></li>
+            <li><a href="#skills" class="footer-nav-link"><i class="fa-solid fa-angle-right"></i> Tech Stack</a></li>
+            <li><a href="#experience" class="footer-nav-link"><i class="fa-solid fa-angle-right"></i> Experience</a></li>
+            <li><a href="#projects" class="footer-nav-link"><i class="fa-solid fa-angle-right"></i> Projects</a></li>
+            <li><a href="#reviews" class="footer-nav-link"><i class="fa-solid fa-angle-right"></i> Reviews</a></li>
+            <li><a href="#services" class="footer-nav-link"><i class="fa-solid fa-angle-right"></i> Services</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Specializations & Services -->
+        <div class="col-lg-3 col-6">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-services-list">
+            <li class="footer-service-item mb-2">
+              <i class="fa-brands fa-shopify text-success me-2 fs-6"></i> Shopify Theme &amp; Liquid
+            </li>
+            <li class="footer-service-item mb-2">
+              <i class="fa-brands fa-wordpress me-2 fs-6" style="color: #0284c7;"></i> WordPress &amp; Elementor Pro
+            </li>
+            <li class="footer-service-item mb-2">
+              <i class="fa-brands fa-figma text-danger me-2 fs-6"></i> Figma to Responsive Code
+            </li>
+            <li class="footer-service-item mb-2">
+              <i class="fa-solid fa-cart-shopping me-2 fs-6 text-danger"></i> WooCommerce Stores
+            </li>
+            <li class="footer-service-item mb-2">
+              <i class="fa-brands fa-bootstrap me-2 fs-6" style="color: #7952b3;"></i> Bootstrap 5 / Tailwind CSS
+            </li>
+            <li class="footer-service-item">
+              <i class="fa-solid fa-gauge-high text-warning me-2 fs-6"></i> Speed &amp; Core Web Vitals
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Direct Connect & 1-Click Copy -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-heading">Direct Connect</h4>
+          <p class="text-muted small mb-3">Feel free to reach out directly via email, phone call or LinkedIn:</p>
+
+          <!-- 1-Click Copy Email -->
+          <div class="footer-contact-box mb-2" data-copy="sanjanash2034@gmail.com" data-label="Email copied: sanjanash2034@gmail.com" title="Click to copy email">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="d-flex align-items-center gap-2 overflow-hidden">
+                <i class="fa-regular fa-envelope text-danger flex-shrink-0"></i>
+                <span class="small fw-semibold text-truncate">sanjanash2034@gmail.com</span>
+              </div>
+              <span class="badge py-1 px-2 ms-1 rounded-pill" style="background: var(--purple-wash); color: var(--purple-primary); font-size: 0.72rem; border: 1px solid var(--purple-tint);">Copy</span>
+            </div>
+          </div>
+
+          <!-- 1-Click Copy Phone -->
+          <div class="footer-contact-box mb-3" data-copy="+919873942709" data-label="Phone copied: +91 9873942709" title="Click to copy phone">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="d-flex align-items-center gap-2">
+                <i class="fa-solid fa-phone text-success flex-shrink-0"></i>
+                <span class="small fw-semibold">+91 9873942709</span>
+              </div>
+              <span class="badge py-1 px-2 ms-1 rounded-pill" style="background: var(--purple-wash); color: var(--purple-primary); font-size: 0.72rem; border: 1px solid var(--purple-tint);">Copy</span>
+            </div>
+          </div>
+
+          <!-- Social Icon Buttons -->
+          <div class="d-flex align-items-center gap-2 pt-1">
+            <a href="https://www.linkedin.com/in/sanjana-sharma-012557256/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" title="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in text-primary"></i>
+            </a>
+            <a href="mailto:sanjanash2034@gmail.com" class="footer-social-btn" title="Send Email">
+              <i class="fa-regular fa-envelope text-danger"></i>
+            </a>
+            <a href="tel:+919873942709" class="footer-social-btn" title="Call Sanjana">
+              <i class="fa-solid fa-phone text-success"></i>
+            </a>
+            <a href="https://wa.me/919873942709" target="_blank" rel="noopener noreferrer" class="footer-social-btn" title="WhatsApp Chat">
+              <i class="fa-brands fa-whatsapp text-success"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Bottom Sub-Footer Bar -->
+      <div class="footer-bottom-bar">
+        <div class="row align-items-center gy-3">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="small text-muted mb-1">
+              &copy; <span id="currentYear"></span> <strong>Sanjana Sharma</strong>. All Rights Reserved.
+            </p>
+            <p class="small text-muted mb-0" style="font-size: 0.8rem;">
+              Built with HTML5, CSS3, JavaScript, Bootstrap 5, Slick Carousel &amp; WOW.js.
+            </p>
+          </div>
+
+          <div class="col-md-6 text-center text-md-end">
+            <div class="d-flex flex-wrap justify-content-center justify-content-md-end align-items-center gap-2">
+              <span class="footer-tag-pill">Shopify Expert</span>
+              <span class="footer-tag-pill">WordPress Elementor</span>
+              <span class="footer-tag-pill">Frontend UI</span>
+              <a href="#home" class="footer-back-to-top-link ms-md-2" title="Scroll to Top">
+                Back to Top <i class="fa-solid fa-arrow-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       TOAST & BACK TO TOP BUTTON
+       ========================================================================== -->
+  <!-- Toast Alert -->
+  <div id="customToast" class="toast-custom">
+    <i class="fa-solid fa-circle-check text-success fs-5"></i>
+    <span id="toastMessage">Copied to clipboard!</span>
+  </div>
+
+  <!-- Back to Top Button -->
+  <a href="#" id="backToTopBtn" class="back-to-top" title="Back to Top" aria-label="Back to Top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </a>
+
+  <!-- ==========================================================================
+       JAVASCRIPT LIBRARIES & SCRIPTS
+       ========================================================================== -->
+  <!-- jQuery (Required for Slick Slider) -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap 5.3.2 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <!-- Slick Slider JS -->
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <!-- WOW.js for Scroll Animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+  <!-- Custom Main Script -->
+  <script src="js/main.js"></script>
+
+  <script>
+    // Set dynamic current year in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
